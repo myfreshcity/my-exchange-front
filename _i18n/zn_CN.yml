@@ -8,15 +8,15 @@ global:
   twitter: Twitter
 exchanges:
   demo:
-    title: Blink演示：开源的比特币交易平台
-    description: 开源的比特币交易平台
+    title: 社区数字货币交易平台
+    description: 社区数字货币交易平台
     keywords: 比特币，比特币交易所，开源的比特币交易平台，开源，交易平台
-    lead: 请关注我们的开源的比特币交易平台
-  chilebit:
-    title: ChileBit.NET - 智利的第一家比特币交易平台
-    description: 智利的第一家比特币交易平台
-    keywords: 智利的第一家比特币交易平台，在智利买卖比特币，在智利如何购买比特币
-    lead: 智利的第一家比特币交易平台
+    lead: 社区数字货币交易平台
+  iExchange:
+    title: 社区数字货币交易平台
+    description: 社区数字货币交易平台
+    keywords: 社区数字货币交易平台
+    lead: 社区数字货币交易平台
   surbitcoin:
     title: SurBitcoin - 委内瑞拉的第一家比特币交易平台
     description: 委内瑞拉的第一家比特币交易平台
@@ -67,30 +67,30 @@ views:
     about:
       learn: Learn More
       phrase1:
-        title: Easy and Fast
+        title: 更简单
         icon: ico-tradewithus
-        description: We strive for simplicity. We work hard to make it easy for you to buy and sell and use advanced features like <a href="https://github.com/blinktrade/algorithm-trading" target="_BLANK">open source trading algorithms</a>, even if you are completely new to trading. All of our deposits and withdrawals are processed instantly so that you can get your bitcoins in less than 1 minute.
+        description: 交易比任何时候更简单.
       phrase2:
-        title: 100% Transparency
+        title: 更透明
         icon: ico-secure
-        description: Our dedication to transparency includes our source code which is <a href="https://github.com/blinktrade/frontend/" target="_BLANK">100% open source</a> so that everyone can analyze it and help us look for weaknesses in our security. Our hot and cold wallets are also public so you can do your own solvency check of our exchanges any time directly on the blockchain.
+        description: 透明意味着交易更安全.
       phrase3:
-        title: Maecenas vel magna
+        title: 更中立
         icon: ico-liquidity
         description: Donec ac tincidunt enim, quis porttitor massa. Sed vulputate ex at quam venenatis, non facilisis justo vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam nisl, congue vehicula maximus eget, tempor nec ipsum. Vestibulum feugiat consequat lacus et congue. Phasellus eu felis vel dui cursus pharetra quis non lectus. Curabitur porta ultrices magna sit amet ultrices. Nam cursus lorem mollis arcu dignissim congue. Praesent vitae venenatis lorem, sit amet efficitur ipsum.
       phrase4:
-        title: Member of BLINKTRADE
+        title: 更开放
         icon: ico-decentralized
-        description: We are a member of the global <a href="https://blinktrade.com" target="_BLANK">BlinkTrade network</a>, that includes <a href="https://foxbit.com.br" target="_BLANK">FoxBit</a> in Brazil, <a href="https://surbitcoin.com/themes/coinage/" target="_BLANK">SurBitcoin</a> in Venezuela, <a href="https://chilebit.net/" target="_BLANK">ChileBit.NET</a> in Chile, <a href="https://urdubit.com/" target="_BLANK">UrduBit</a> in Pakistan and <a href="https://vbtc.vn/" target="_BLANK">VBTC</a> in Vietnam among other companies, market makers, remittance agencies and payment processors. Through our platform you will have access to this global network of exchanges and will be able to navigate all of them in the language of your choice
+        description: 全球交易无国界
     orderbook:
       title: Live Order Book
     signup:
-      title: CREATE YOUR ACCOUNT NOW
-      description: Sign up and discover how easy it is to trade with us.
+      title: 立刻注册
+      description: 你会发现，交易如此简单.
   footer:
-    about: About
-    company: Company
-    platform: Platform
+    about: 关于我们
+    company: 公司介绍
+    platform: 平台介绍
     blog: Blog
     chart: Chart
     latency: Latency
@@ -134,7 +134,7 @@ views:
     state: 省份或者直辖市
     broker: 代理人
     terms_of_service: 服务条约
-    i_agree_with_terms_of_service: 我同意一下服务条约
+    i_agree_with_terms_of_service: 我同意该服务条款
     signup_button_label: 注册
 
   signin:
@@ -143,9 +143,9 @@ views:
     signup: 注册
     username: 用户名
     password: 密码
-    second_factor: Two factor authentication
-    has_second_factor: Has two factor authentication?
-    trust_this_device: Trust this device for 30 days
+    second_factor: 双因素认证
+    has_second_factor: 需要双因素认证?
+    trust_this_device:  在30天内都信任该设备
     forgot_your_password: 忘记了密码？
     login_button_label: 登陆
 
@@ -265,7 +265,7 @@ views:
     withdraw: 我的提现
     verification: 验证我的账户
     line_of_credit: 信用额度
-    support: 建议和问题
+    support: 支持
     api: API
     logout: 退出
     algotrading: 程序自动交易
@@ -273,5 +273,5 @@ views:
     card:  Blink Card
     services: Services
   themes:
-    title: Themes
-    choose: Choose a Theme
+    title: 主题
+    choose: 请选择一个主题

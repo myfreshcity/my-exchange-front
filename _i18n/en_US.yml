@@ -7,15 +7,15 @@ global:
   twitter: Twitter
 exchanges:
   demo:
-    title: BlinkDemo - Open Source Bitcoin Exchange demo website
+    title: Open Source Bitcoin Exchange demo website
     description: Open Source Bitcoin Exchange demo website
     keywords: bitcoin, bitcoin exchange, open source bitcoin exchange, bitcoin trading plataform, open source bitcoin trading plataform
     lead: See our open source Bitcoin exchange in action
-  chilebit:
-    title: ChileBit.NET - The first bitcoin exchange in Chile
-    description: The first bitcoin exchange in Chile
-    keywords: Buy and sell bitcoin in Chile, bitcoin exchange in Chile, sell bitcoins in Chile, buy bitcoins in Chile
-    lead: The first bitcoin exchange in Chile
+  iExchange:
+    title: The first community exchange
+    description: The first community exchange
+    keywords: buy bitcoins
+    lead: The first community exchange
   surbitcoin:
     title: SurBitcoin - The first bitcoin exchange in Venezuela
     description: The first bitcoin exchange in Venezuela
@@ -68,19 +68,19 @@ views:
       phrase1:
         title: Easy and Fast
         icon: ico-tradewithus
-        description: We strive for simplicity. We work hard to make it easy for you to buy and sell and use advanced features like <a href="https://github.com/blinktrade/algorithm-trading" target="_BLANK">open source trading algorithms</a>, even if you are completely new to trading. All of our deposits and withdrawals are processed instantly so that you can get your bitcoins in less than 1 minute.
+        description: We strive for simplicity.
       phrase2:
         title: 100% Transparency
         icon: ico-secure
-        description: Our dedication to transparency includes our source code which is <a href="https://github.com/blinktrade/frontend/" target="_BLANK">100% open source</a> so that everyone can analyze it and help us look for weaknesses in our security. Our hot and cold wallets are also public so you can do your own solvency check of our exchanges any time directly on the blockchain.
+        description: Transparency
       phrase3:
         title: Maecenas vel magna
         icon: ico-liquidity
         description: Donec ac tincidunt enim, quis porttitor massa. Sed vulputate ex at quam venenatis, non facilisis justo vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam nisl, congue vehicula maximus eget, tempor nec ipsum. Vestibulum feugiat consequat lacus et congue. Phasellus eu felis vel dui cursus pharetra quis non lectus. Curabitur porta ultrices magna sit amet ultrices. Nam cursus lorem mollis arcu dignissim congue. Praesent vitae venenatis lorem, sit amet efficitur ipsum.
       phrase4:
-        title: Member of BLINKTRADE
+        title: More Open
         icon: ico-decentralized
-        description: We are a member of the global <a href="https://blinktrade.com" target="_BLANK">BlinkTrade network</a>, that includes <a href="https://foxbit.com.br" target="_BLANK">FoxBit</a> in Brazil, <a href="https://surbitcoin.com/themes/coinage/" target="_BLANK">SurBitcoin</a> in Venezuela, <a href="https://chilebit.net/" target="_BLANK">ChileBit.NET</a> in Chile, <a href="https://urdubit.com/" target="_BLANK">UrduBit</a> in Pakistan and <a href="https://vbtc.vn/" target="_BLANK">VBTC</a> in Vietnam among other companies, market makers, remittance agencies and payment processors. Through our platform you will have access to this global network of exchanges and will be able to navigate all of them in the language of your choice
+        description: More Open
     orderbook:
       title: Live Order Book
     signup:
@@ -264,7 +264,7 @@ views:
     withdraw: My Withdrawals
     verification: Verify your account
     line_of_credit: Line of credit
-    support: Suggestions & Support
+    support: Support
     api: API
     logout: Logout
     algotrading: Algo Trading

@@ -1,5 +1,7 @@
 #分语言和主题编译
 
+jekyll server --no-watch
+
 LANG=en_US THEME=coinage sh build_release.sh
 
 ## source map 支持说明

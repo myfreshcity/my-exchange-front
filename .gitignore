@@ -45,7 +45,7 @@ nosetests.xml
 coverage.xml
 
 # Jekyll 
-_config.yml
+#_config.yml
 
 # Translations
 *.mo

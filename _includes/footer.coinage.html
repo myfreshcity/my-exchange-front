@@ -11,38 +11,10 @@
                     <li>
                         <a href="#about">{% t views.footer.about %}</a>
                     </li>
-                    {% if site.blog %}
-                    <li>
-                        <a href="{{ site.blog }}" target="_blank">{% t views.footer.blog %}</a>
-                    </li> {% endif %}
-                    {% if site.chart %}
-                    <li>
-                        <a href="{{ site.chart }}" target="_blank">{% t views.footer.chart %}</a>
-                    </li>
-                    {% endif %}
                 </ul>
             </div>
             <div class="col-sm-4">
                 <h5>{% t views.footer.platform %}</h5>
-                <ul>
-                    {% if page.load_application %}
-                    <li>
-                        <a href="" data-switch-view="themes">{% t views.themes.title %}</a>
-                    </li>
-                    <li>
-                        Latency: <span class="bitex-model" data-model-key="latency">0</span> ms
-                    </li>
-                    {% endif %}
-                    <li>
-                        Version: {{ site.deploy_version }}
-                    </li>
-                    <li>
-                        <a href="https://github.com/blinktrade/" target="_blank">Proudly 100% open source <span class="bitex-model" data-model-key="JSVersion"></span></a>
-                    </li>
-                    <li>
-                        <a href="http://nytm.org/made-in-nyc/" target="_blank">Made with <span style="color: #d11f0d;font-size: 19px;">♥</span> in NYC</a>
-                    </li>
-                </ul>
             </div>
             <div class="col-sm-4">
                 <h5></h5>
@@ -50,65 +22,12 @@
                     <li class="bitex-model" style="display: none" data-model-key="IsProTrader" data-model-action="show_element">
                         <a href="#" data-switch-view="api">{% t views.sidebar.api %} </a>
                     </li>
-                    <li>
-                      {% if site.custom_faq %}
-                        <a href="{{ site.custom_faq }}" target="_blank" rel="noopener noreferrer">{% t views.sidebar.support %}</a>
-                      {% else %}
-                        <a href="" data-switch-view="faq">{% t views.sidebar.support %}</a>
-                      {% endif %}
-                    </li>
                 </ul>
             </div>
         </div>
         <div class="row center">
-            <a href="http://blinktrade.com/" target="_blank">© 2014 BlinkTrade Inc</a>
+            <a href="#" target="_blank">© 2018 iExchange Inc</a>
             <hr>
-        </div>
-        <div class="row foot-social">
-            {% if site.facebook %}
-            <div class="col-sm-2 col-sm-offset-2">
-                <div class="social-button">
-                    <h3>
-                        <a href="{{ site.facebook }}" target="_blank">
-                            <i class="fa fa-facebook-official"></i>
-                        </a>
-                    </h3>
-                </div>
-            </div>
-            {% endif %}
-            {% if site.twitter %}
-            <div class="col-sm-2">
-                <div class="social-button">
-                    <h3>
-                        <a href="{{ site.twitter }}" target="_blank">
-                            <i class="fa fa fa-twitter-square"></i>
-                        </a>
-                    </h3>
-                </div>
-            </div>
-            {% endif %}
-            {% if site.gplus %}
-            <div class="col-sm-2">
-                <div class="social-button">
-                    <h3>
-                        <a href="{{ site.gplus }}" target="_blank">
-                            <i class="fa fa fa-google-plus-square"></i>
-                        </a>
-                    </h3>
-                </div>
-            </div>
-            {% endif %}
-            {% if site.youtube %}
-            <div class="col-sm-2">
-                <div class="social-button">
-                    <h3>
-                        <a href="{{ site.youtube }}" target="_blank">
-                            <i class="fa fa-youtube-play"></i>
-                        </a>
-                    </h3>
-                </div>
-            </div>
-            {% endif %}
         </div>
       </div>
     </div>
