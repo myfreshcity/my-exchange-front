@@ -90,6 +90,7 @@ python ./closure-library/closure/bin/build/closurebuilder.py  \
   --compiler_flags="--externs=./externs/facebook_javascript_sdk.js" \
   --compiler_flags="--externs=./externs/qrcode.js" \
   --compiler_flags="--translations_file=./translations/$LANG.xtb.xml" \
+  --compiler_flags="--create_source_map=./bitex-map.js.map" \
    > ../assets/js/bitex_app_blink_trade.compiled.$LANG.$THEME.js
 
 # enable those flags to debug the compiled code.

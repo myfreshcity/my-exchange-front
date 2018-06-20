@@ -1,3 +1,16 @@
+#分语言和主题编译
+
+LANG=en_US THEME=coinage sh build_release.sh
+
+## source map 支持说明
+
+jsdev/build_release.sh 增加
+
+--compiler_flags="--create_source_map=./bitex-map.js.map" \
+
+压缩后的文件增加source map
+//@ sourceMappingURL=../../jsdev/bitex-map.js.map
+
 ## Blinktrade Bitcoin Exchange
 
 ## Technologies we are using

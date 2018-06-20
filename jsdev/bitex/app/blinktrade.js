@@ -488,8 +488,8 @@ bitex.app.BlinkTrade.prototype.run = function(host_api, opt_required_level_to_be
   this.instance_ = this;
   this.host_api_ = host_api;
 
-  this.rest_url_ = 'https://' + this.host_api_;
-  this.wss_url_ = 'wss://' + this.host_api_ + '/trade/';
+  this.rest_url_ = 'http://' + this.host_api_;
+  this.wss_url_ = 'ws://' + this.host_api_ + '/trade/';
 
   uniform.Validators.getInstance().registerValidatorFn('validateAddress',  bitex.app.BlinkTrade.validateBitcoinAddress_);
 
