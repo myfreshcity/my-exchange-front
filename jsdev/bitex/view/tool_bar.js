@@ -30,7 +30,7 @@ bitex.view.ToolBarView.prototype.enterDocument = function() {
   handler.listen(model, bitex.model.Model.EventType.SET + 'Broker', function(e){
     var support_link_elements = goog.dom.getElementsByClass('bitex-support-link');
     goog.array.forEach(support_link_elements, function(el){
-      el.href = model.get('Broker')['SupportURL'];
+      el.href = '#';
     });
   });
 

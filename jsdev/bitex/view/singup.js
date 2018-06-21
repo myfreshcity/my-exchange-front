@@ -332,12 +332,6 @@ bitex.view.SignupView.prototype.onChangeBroker_ = function(e){
       broker['FormattedTransactionFeeSell'] = fmt.format(broker['TransactionFeeSell'] / 10000);
       broker['FormattedTakerTransactionFeeBuy'] = fmt.format(broker['TakerTransactionFeeBuy'] / 10000);
       broker['FormattedTakerTransactionFeeSell'] = fmt.format(broker['TakerTransactionFeeSell'] / 10000);
-
-      goog.soy.renderElement(goog.dom.getElement('signup_broker_details'), bitex.templates.BrokerView, {
-        show_title: false,
-        msg_broker:broker,
-        broker_list: broker_list
-      });
     }
   }
 };

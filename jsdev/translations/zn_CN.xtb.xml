@@ -103,7 +103,7 @@
 	<translation id="2925869653895846815" key="MSG_KI0JICLKMNY6" source="bitex/ui/withdraw_method_editor.default.soy.js" desc="Fixed fee placeholder">固定手续费</translation>
 	<translation id="7596956893714928425" key="MSG_1AYETW7WU9M0P" source="bitex/templates/templates.default.soy.js" desc="requested amount">请求数量</translation>
 	<translation id="888870645498996327" key="MSG_RJN2WZ4R2TYC" source="bitex/templates/templates.default.soy.js" desc="method">方法</translation>
-	<translation id="8172437403730359208" key="MSG_1I8PRKMAB5MU9" source="bitex/templates/templates.default.soy.js" desc="Error message when the user is not yet verified.">由于反洗钱法和政府监管, 请先完成实名认证，然后可以充值提现人民币.<ph name="break" />We are very sorry for the inconvenience.</translation>
+	<translation id="8172437403730359208" key="MSG_1I8PRKMAB5MU9" source="bitex/templates/templates.default.soy.js" desc="Error message when the user is not yet verified.">由于反洗钱法和政府监管, 请先完成实名认证.<ph name="break" /></translation>
 	<translation id="7127752746329835498" key="MSG_18D3EL8LYTMHB" source="bitex/templates/templates.default.soy.js" desc="get verified message"> 验证您的账户 </translation>
 	<translation id="8465429449791609704" key="MSG_I7JOKPCGO59U" source="bitex/templates/templates.default.soy.js" desc="Error message when the brokers doesn't have deposit methods">暂时不接受充值，给您带来的不便，敬请理解</translation>
 	<translation id="6118533138055569855" key="MSG_Y43OCC7FZUTV" source="bitex/ui/advanced_order_entry.default.soy.js" desc="Advanced Order Entry Label">数量</translation>
@@ -741,6 +741,12 @@
 	<translation id="4782414494775229112" key="MSG_WITHDRAW_TABLE_DETAILS_COLUMN_INTENDED_PURPOSE" source="bitex/ui/withdraw_list.js" desc="Withdraw column label in the  broker's withdraw list detail table">Purpose</translation>
 	<translation id="5533635418939780421" key="MSG_WITHDRAW_FIELD_INTENDED_PURPOSE" source="bitex/app/blinktrade.js" desc="Withdraw field on the withdrawal dialog">Purpose</translation>
 	<translation id="1730055005975793342" key="MSG_13OQ7TH6HKJ76" source="bitex/templates/templates.soy.js" desc="Label on the two factor authenticatior">信任这台设备30天</translation>
+	<translation id="141203007356381969" key="MSG_16C1GNUL3XUWN" source="bitex/ui/simple_order_entry.soy.js" desc="Advanced Buy Description">限价买入</translation>
+	<translation id="7832445884866530890" key="MSG_EGLBXHXODR5K" source="bitex/ui/simple_order_entry.soy.js" desc="Advanced Sell Description">限价卖出</translation>
+	<translation id="2542731222618433033" key="MSG_1T9PKTS2SPCB2" source="bitex/ui/simple_order_entry.soy.js" desc="Simple Buy Order Description">市价买入</translation>
+	<translation id="92892691158633472" key="MSG_1RSBV89678OAD" source="bitex/ui/simple_order_entry.soy.js" desc="Simple Sell Order Description">市价卖出</translation>
+
+
 	<translation id="6769086602060751025" key="MSG_LOGIN_BUSY" source="bitex/app/blinktrade.js" desc="The Server is busy right now, try again later">The Server is busy right now, try again later</translation>
 	<translation id="8513557970267239220" key="MSG_1TDX474Z0C41H" source="bitex/templates/templates.soy.js" desc="Confirmation code placeholder on withdraw confirmation dialog">eg. 4a72c1c1c05541bba3324847454d8165</translation>
 	<translation id="1258019074704592474" key="MSG_LOGIN_ERROR_ALREADY_USED_SECOND_STEP" source="bitex/app/blinktrade.js" desc="OTP code already used error">Authentication code already used.</translation>

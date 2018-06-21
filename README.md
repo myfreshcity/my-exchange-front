@@ -4,6 +4,8 @@ jekyll server --no-watch
 
 LANG=en_US THEME=coinage sh build_release.sh
 
+LANG=zn_CN THEME=coinage sh build_release.sh
+
 ## source map 支持说明
 
 jsdev/build_release.sh 增加
